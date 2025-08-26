@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr ;
+      gap: 5px;
+    }
+
+    .grid-item {
+      border: 1px solid rgb(109, 255, 68);
+      padding: 6px;
+      text-align: center;
+    }
+
+    .grid-item img{
+      height: 70%;
+    }
+
+    @media (max-width: 1000px) {
+      .grid-container {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="filler_images/image1.PNG" alt="Image 1">
+      <p> image 1 </p>
+    </div>
+    <div class="grid-item">
+      <img src="filler_images/image2.PNG" alt="Image 2">
+      <p> image 2 </p>
+    </div>
+    <div class="grid-item">
+      <img src="filler_images/image3.PNG" alt="Image 3">
+      <p> image 3 </p>
+    </div>
+    <div class="grid-item">
+      <img src="filler_images/image4.PNG" alt="Image 4">
+      <p> image 4 </p>
+    </div>
+    <div class="grid-item">
+      <img src="filler_images/image5.PNG" alt="Image 5">
+      <p> image 5 </p>
+    </div>
+    <div class="grid-item">
+      <img src="filler_images/image6.PNG" alt="Image 6">
+      <p> image 6 </p>
+    </div>
+
+  </div>
+</body>
+</html>

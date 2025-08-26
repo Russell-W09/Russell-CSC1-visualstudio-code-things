@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    
+    <title> OSC Chess - Learn </title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/127197988f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="images/chessicon.PNG">
+  </head>
+
+  <body>
+    <div id="home_image">
+      <header>
+        <div class="navbar">
+          <a href="index.html"><img class="logo" src="images/osc-logo.png" alt="OSC logo"></a>
+            <ul class="nav-links">
+               <li><a href="index.html" class="page" id="home"> Home </a></li> 
+               <li><a href="learn.html" class="page" id="active-learn"> Learn </a></li> 
+               <li><a href="login.html" class="page" id="login">Log In </a></li>
+               <li><a href="signup.html" class="page" id="signup">Sign Up </a></li>
+            </ul>
+            
+        </div>
+      </header>
+    
+    
+      <main>
+        <div class="learn-container"> 
+          <div class="learn-header"> 
+            <h2 class=""><i class="fa-solid fa-chess"></i>Learn to play</h2>
+            <p> Learn the fundamentals of chess below</p>
+          </div>
+
+          <div class="learn-content">
+            <!-- Chessboard  -->
+            <section class="learn-section" id="board">
+              <h2><i class="fa-solid fa-chess-board"></i> Chessboard </h2>
+              <div class="learn-flex learn-chessboard">
+                <div class="learn-text">
+
+                  <p>
+                    A chessboard consists of 64 squares arranged in an 8x8 grid. The horizontal rows are called “ranks” and are numbered 1-8. The vertical columns are called “files” and are labelled a-h from left to right. The squares alternate between white squares and black squares, following a checkered pattern. 
+                  </p>
+
+                  <p>
+                  Chess coordinate system called “algebraic notation” is used to communicate chess moves with ease. The system is concise, making games easier to record and understand for everyone. In addition, it allows for tracking of chess piece movement on each square uniquely. For example, the bottom-left square of whites perspective is a1, whilst the top-right is h8.
+                  </p>
+
+                  <p>
+                    Using white's perspective and reflecting it for black, the white square should be in the bottom right corner for each player. The bottom-left square is a1 and the top-right square is h8. White pawns are placed on rank 2 and black pawns on rank 7. Rooks are placed in each corner with white pieces on a1 and a8, with black pieces on h1 and h8. Knights are placed in the same rank but in different files; white knights on a2 and a7, and black knights on h2 and h7. Bishops are placed in the same rank beside the knights going towards the center; white bishops on a3 and a5, and black bishops on h3 and h5. The queen goes on the colour matching her army; a white queen goes on a white square, a4, a black queen goes on a black square, h4. The king goes beside the queen and bishop on the opposing colour square, filling up the final slot. 
+                  </p>
+
+                </div>
+
+                <div class="learn-image">
+                  <img src="images/chessboard_notation.jpg" alt="chessboard notation" id="chessboard-a">
+                  <p class="caption"> Standard chessboard layout with algebraic notation </p>
+                </div>
+              </div>
+            </section>
+            
+            <!-- Chess Pieces -->
+            <section class="learn-section" id="pieces">
+              <h2><i class="fa-solid fa-chess"></i> Chess Pieces & How They Work </h2>
+              <div class="chess-pieces">
+
+                <div class="piece-grid"> 
+                  <div class="piece-card"> 
+                    <div class="piece-icon"><i class="fa-solid fa-chess-pawn"></i></div>
+                      <h3>Pawn</h3>
+                      <p> Moves forward one square, but on its first move it can move two squares. Captures pieces diagonally one square forward. When a pawn reaches the opposite end of the board, it promotes to any other piece (except king and pawn). The “En Passant” can occur when the opponent’s pawn moves two squares, the pawn can diagonally go past the piece, capturing without physically taking up the pawn's square. </p>
+                      <img src="images/Pawn-Move.png" alt="pawn-move" class="piece-move">
+                    </div>
+
+                  <div class="piece-card"> 
+                    <div class="piece-icon"><i class="fa-solid fa-chess-rook"></i></div>
+                      <h3>Rook</h3>
+                      <p> Moves any number of squares horizontally or vertically. The rook has a special move called “castle” requiring the king or rook being switched to not have been moved or in check to perform. </p>
+                      <img src="images/Rook-Move.png" alt="rook-move" class="piece-move">
+                  </div>
+
+                  <div class="piece-card"> 
+                    <div class="piece-icon"><i class="fa-solid fa-chess-knight"></i></div>
+                      <h3>Knight</h3>
+                      <p> Moves in an L-shape, two squares forward or vertically then one square perpendicular to that direction. The knight essentially ‘jumps’ over pieces, ignoring line of sight to move. </p>
+                      <img src="images/Knight-Move.png" alt="knight-move" class="piece-move">
+                  </div>
+
+                  <div class="piece-card"> 
+                    <div class="piece-icon"><i class="fa-solid fa-chess-bishop"></i></div>
+                      <h3>Bishop</h3>
+                      <p> Moves any number of square diagonally. Each bishop stays on the same colour square throughout the game. </p>
+                      <img src="images/Bishop-Move.png" alt="bishop-move" class="piece-move">
+                  </div>
+
+                  <div class="piece-card"> 
+                    <div class="piece-icon"><i class="fa-solid fa-chess-queen"></i></div>
+                      <h3>Queen</h3>
+                      <p> Moves any number of squares horizontally, vertically, or diagonally. It combines the powers of the rook and bishop, typically considered the most powerful piece. </p>
+                      <img src="images/Queen-Move.png" alt="queen-move" class="piece-move">
+                  </div>
+
+                  <div class="piece-card"> 
+                    <div class="piece-icon"><i class="fa-solid fa-chess-king"></i></div>
+                      <h3>King</h3>
+                      <p> Moves one square in any direction. The king cannot move into check. Cannot castle when in check, through check, or already moved whether the king or rook trying to castle with. The game ends with the king being checkmated or stalemated for either player.</p>
+                      <img src="images/King-Move.png" alt="king-move" class="piece-move">
+                  </div>
+                </div>
+              </div>
+            </section>
+          
+            <!-- Chess Notation -->
+            <section class="learn-section" id="notation">
+              <h2><i class="fa-solid fa-pencil"></i>Chess Notation</h2>
+              <div class="learn-flex"> 
+
+                <div class="learn-text">
+                  <h3>Basic Notation Rules</h3>
+                  <ul class="notation-list">
+                    <li><p><strong>Pieces</strong> are indicated by their uppercase letter: K (King), Q (Queen), R (Rook), B (Bishop), N (Knight). Pawns don't get a letter.</p></li>
+                    <li><p><strong>Captures</strong> are indicated with an "x": Bxe5 (Bishop captures on e5).</p></li>
+                    <li><p><strong>Check</strong> is indicated with a "+": Qh5+ (Queen moves to h5, giving check).</p></li>
+                    <li><p><strong>Checkmate</strong> is indicated with "#": Qh7# (Queen moves to h7, giving checkmate).</p></li>
+                    <li><p><strong>Castling</strong> is indicated by "O-O" for kingside castling and "O-O-O" for queenside castling.</p></li>
+                    <li><p><strong>Pawn promotion</strong> is indicated by adding the piece symbol after the move: e8=Q (pawn moves to e8 and promotes to Queen).</p></li>
+                  </ul>
+
+                  <h3>Example Move Notation</h3>
+                    <ul class="notation-list">
+                      <li><p><strong>e4</strong> - Pawn moves to e4</p></li>
+                      <li><p><strong>Nf3</strong> - Knight moves to f3</p></li>
+                      <li><p><strong>Bxf7+</strong> - Bishop captures on f7, giving check</p></li>
+                      <li><p><strong>exd5</strong> - Pawn on the e file captures on d5</p></li>
+                    </ul>
+                </div>
+                
+              </div>
+              <div class="learn-image">
+                <img src="images/chess-notation-example.png" alt="Example of chess notation">
+                <p class="caption"> Example of a chess game in algebraic notation</p> 
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <p>&copy; OSC Chess Club </p>
+    </footer>
+
+  </body>
+</html>

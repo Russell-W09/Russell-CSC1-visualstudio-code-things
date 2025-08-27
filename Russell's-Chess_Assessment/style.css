@@ -1,10 +1,9 @@
 
 
   *{
-    margin: 2px;
-    padding: 2px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    border: 2px solid red;
   }
 
 
@@ -72,7 +71,7 @@
     transform: translateY(-5px);
     background-color: white;
     transition: 0.3s;
-    box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff;
+    box-shadow: 10px 10px 20px #000000, -10px -10px 20px #ffffff;
   }
 
   .nav-links a {
@@ -223,7 +222,7 @@
     border: none;
     background-color: white;
     transition: 0.3s;
-    box-shadow: 10px 10px 20px #babecc, -10px -10px 20px #ffffff;
+    box-shadow: 10px 10px 20px #000000, -10px -10px 20px #ffffff;
   }
 
 
@@ -312,7 +311,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   .learn-image img {
     max-width: 90%;
     border-radius: 10px;
@@ -356,8 +355,9 @@
   }
 
   .piece-move {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
   }
 
   /* notation list styling  */
@@ -597,7 +597,7 @@
     }
 
     .learn-image img {
-      max-width: 90%;
+
     }
 
     #chessboard-a {
@@ -693,6 +693,10 @@
     font-size: 15px;
     }
 
+    #chessboard-a {
+    width: 90%;
+    }
+
     .piece-grid {
     grid-template-columns: 1fr;
     }
@@ -701,6 +705,7 @@
     font-size: 30px;
     }
 
+    
   }
 
 

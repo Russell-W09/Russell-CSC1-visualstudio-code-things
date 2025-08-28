@@ -81,12 +81,13 @@
     padding: 6px 10px; 
     border-radius: 25px;
     transition: background-color 0.3s, color 0.3s;
+    
   }
     
   #active-home {
     background-color: white;
     color: black;
-    text-decoration: none;
+    text-decoration: none;  
   }
 
   #active-learn {
@@ -355,8 +356,8 @@
   }
 
   .piece-move {
-    width: 250px;
-    height: 250px;
+    width: 225px;
+    height: 225px;
     border-radius: 25px;
   }
 
@@ -596,9 +597,6 @@
       grid-template-columns: 1fr;
     }
 
-    .learn-image img {
-
-    }
 
     #chessboard-a {
       max-width: 200%;
@@ -623,6 +621,10 @@
 
     .logo {
       margin: 0px 0px 0px 0px;
+    }
+
+    .navbar ul {
+      flex-wrap: wrap;
     }
 
     .navbar li {
@@ -718,6 +720,10 @@
     
     .main-box1, .main-box2, .main-box3, .main-box4 {
       grid-column: span 1;
+    }
+
+    .navbar ul {
+      flex-wrap: wrap;
     }
 
   }

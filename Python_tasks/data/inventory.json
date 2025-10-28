@@ -8,7 +8,7 @@
   "Biscuits": {
       "price": 2.50,
       "stock": 25,
-      "barcode": 222
+      "barcode": 222 
   },
   "Hummus": {
       "price": 4.50,

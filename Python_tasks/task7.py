@@ -35,11 +35,15 @@ def loading_inventory():
     return {}
 
 def displaying_inventory():
+  # display all products in the inventory
+  if not products:
+    print("No inventory loaded yet. Please load inventory first.")
+    return
   print("You entered 2 for displaying inventory.")
-  print("--------")
+  print("\n---- Inventory ----")
   for name, details in products.items():
-    print(f"{name}) - ${details['price']}")
-  print("--------")
+    print(f"{name} - ${details['price']} (Stock: {details['stock']})")
+  print("---------------------")
 
 def shopping():
   print("Welcome to shopping!")

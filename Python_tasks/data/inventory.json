@@ -1,22 +1,22 @@
 
 {
   "Cookies": {
-      "price": 3.00,
+      "price": 2.99,
       "stock": 15,
       "barcode": 111
   },
   "Biscuits": {
-      "price": 2.50,
+      "price": 2.49,
       "stock": 25,
       "barcode": 222 
   },
   "Hummus": {
-      "price": 4.50,
+      "price": 4.49,
       "stock": 32,
       "barcode": 333
   },
   "Ice-cream": {
-      "price": 5.00,
+      "price": 4.99,
       "stock": 9,
       "barcode": 444
   }

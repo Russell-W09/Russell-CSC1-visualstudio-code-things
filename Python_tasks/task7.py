@@ -49,21 +49,6 @@ def shopping():
   print("Welcome to shopping!")
 
 
-""" comment here to keep but not use my old functions
-
-def loading_inventory():
-  print("Loading inventory")
-  print("")
-
-def displaying_inventory():
-  print("Displaying inventory")
-  print("")
-
-def shopping():
-  print("Shopping")
-  print("")
-
-"""  
 
 def displaying_cart():
   print("Displaying cart")
